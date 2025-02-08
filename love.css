@@ -84,7 +84,7 @@ body {
   display: grid;
   place-content: center;
   background: #f8f6f1;
-  overflow: hidden;
+  overflow: auto;
 }
 
 #hedlinecontainer {
