@@ -211,3 +211,96 @@ body {
       opacity: 0%;
     }
   }
+
+
+
+
+  /* For small devices (phones, up to 600px) */
+@media (max-width: 600px) {
+  .first-text {
+      font-size: 5vw; /* Adjust font size */
+      left: 5%; /* Adjust position */
+      top: 10%; /* Adjust position */
+  }
+
+  .second-text {
+      font-size: 4vw; /* Adjust font size */
+      top: 12%; /* Adjust position */
+  }
+
+  .third-text {
+      font-size: 3vw; /* Adjust font size */
+      left: 50%; /* Center horizontally */
+      top: 50%; /* Center vertically */
+  }
+
+  .fourth-text {
+      font-size: 4vw; /* Adjust font size */
+      top: 15%; /* Adjust position */
+  }
+
+  .fifth-text, .sixth-text, .seventh-text, .eight-text, .nine-text {
+      font-size: 4vw; /* Adjust font size */
+      bottom: 20%; /* Adjust position */
+  }
+}
+
+/* For medium devices (tablets, 601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .first-text {
+      font-size: 4.5vw; /* Adjust font size */
+      left: 3%; /* Adjust position */
+      top: 7%; /* Adjust position */
+  }
+
+  .second-text {
+      font-size: 3.5vw; /* Adjust font size */
+      top: 10%; /* Adjust position */
+  }
+
+  .third-text {
+      font-size: 2.5vw; /* Adjust font size */
+      left: 45%; /* Adjust position */
+      top: 45%; /* Adjust position */
+  }
+
+  .fourth-text {
+      font-size: 3.5vw; /* Adjust font size */
+      top: 12%; /* Adjust position */
+  }
+
+  .fifth-text, .sixth-text, .seventh-text, .eight-text, .nine-text {
+      font-size: 4.5vw; /* Adjust font size */
+      bottom: 25%; /* Adjust position */
+  }
+}
+
+/* For large devices (desktops, 901px and up) */
+@media (min-width: 901px) {
+  .first-text {
+      font-size: 4vw; /* Keep original size */
+      left: 2.5%; /* Keep original position */
+      top: 5%; /* Keep original position */
+  }
+
+  .second-text {
+      font-size: 3.4vw; /* Keep original size */
+      top: 8.5%; /* Keep original position */
+  }
+
+  .third-text {
+      font-size: 2vw; /* Keep original size */
+      left: 45%; /* Keep original position */
+      top: 45%; /* Keep original position */
+  }
+
+  .fourth-text {
+      font-size: 3.4vw; /* Keep original size */
+      top: 10.5%; /* Keep original position */
+  }
+
+  .fifth-text, .sixth-text, .seventh-text, .eight-text, .nine-text {
+      font-size: 5vw; /* Keep original size */
+      bottom: 25%; /* Keep original position */
+  }
+}
